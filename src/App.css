@@ -1,0 +1,75 @@
+.App {}
+
+.liUl,
+.headUl {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.liUl>li,
+.headUl>li {
+    list-style: none;
+    color: green;
+}
+
+.Completed {
+    text-decoration: line-through red;
+    /* color: red !important; */
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.child {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.child>input {
+    width: 50%;
+    height: 30px;
+}
+.addBtn{
+    width: 10%;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    background: gold;
+}
+.fa-plus{
+    color: white;
+}
+.CompletedBtn,
+.TodoBtn {
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    color: white;
+}
+
+.CompletedBtn {
+    background: green;
+}
+
+.TodoBtn {
+    background: orange;
+}
+.descDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descDiv >p {
+    color: blue;
+    font-size: 18px;
+    font-style: oblique
+    ;
+}
